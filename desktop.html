@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  
+   <style>
+
+
+    
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+
+
+.box{
+    height: 410px;
+    width: 16.5em;
+    border-radius: 15px;
+    background-color:  hsl(0, 0%, 100%);
+    border: 2px solid  hsl(0, 0%, 100%);
+    position: absolute;
+    margin-top: 100px;
+    left: 500px;
+    z-index: -1;
+}
+img{
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+    position: absolute;
+    left: 499px;
+    margin: 15px;
+    margin-top: 112px;
+    z-index: -1;
+    
+}
+.p{
+    font-family:sans-serif;
+    font-weight: 700;
+    word-spacing: 1px;
+    padding-left: 40%;
+    font-size: 18px;
+    margin-top:370px;
+    position: absolute;
+    color: hsl(218, 44%, 22%);
+   
+   
+}
+.p1{
+    font-family:sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    word-spacing: 1px;
+    padding-top: 410px; 
+    position: absolute;
+    margin-left: 500px;
+    color: hsl(220, 100%, 80%);
+   
+}
+.attribution{
+    font-family:serif;
+    font-size: 12px;
+    padding-left: 505px;
+    padding-top: 490px;
+    position: absolute;
+}
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> 
+</head>
+<body>
+  <div class="box"></div>
+  <div class="qr-code">
+    <img src="images/image-qr-code.png" alt="qr-code">
+  </div>
+
+ <p class="p"> &nbsp;Improve your front-end <br> skills by building projects</p>
+
+  <p class="p1">Scan the QR code to visit Frontend Mentor <br> and take your coding skills to the next level</p>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  
+         Coded by <a href="https://www.linkedin.com/in/petertabie/">Tabie Peter</a>.
+  </div>
+</body>
+</html>
