@@ -6,24 +6,24 @@ body{
 
 
 .box{
-    height: 35em;
-    width: 375px;
+    height: 31em;
+    width: 314px;
     border-radius: 10px;
     background-color:  hsl(0, 0%, 100%);
     border: 2px solid  hsl(0, 0%, 100%);
     position: absolute;
-    margin-top: 10px;
+    margin-top: 50px;
     left: 500px;
     z-index: -1;
 }
 img{
-    height: 350px;
-    width: 350px;
+    height: 310px;
+    width: 290px;
     border-radius: 10px;
     position: absolute;
     left: 500px;
     margin: 15px;
-    margin-top: 20px;
+    margin-top: 60px;
     z-index: -1;
     
 }
@@ -31,7 +31,7 @@ img{
     font-family:sans-serif;
     font-weight: 700;
     word-spacing: 1px;
-    padding-left: 43%;
+    padding-left: 41%;
     font-size: 20px;
     margin-top:400px;
     position: absolute;
@@ -42,18 +42,17 @@ img{
 .p1{
     font-family:sans-serif;
     font-size: 15px;
-    font-weight: 700;
-    word-spacing: 1px;
-    padding-top: 470px; 
+    font-weight: 400;
+    padding-top: 450px; 
     position: absolute;
-    margin-left: 530px;
-    color: hsl(212, 45%, 89%);
+    margin-left: 508px;
+    color: hsl(220, 100%, 80%);
    
 }
 .attribution{
     font-family:serif;
     font-size: 12px;
-    padding-left: 560px;
-    padding-top: 550px;
+    padding-left: 518px;
+    padding-top: 520px;
     position: absolute;
 }
